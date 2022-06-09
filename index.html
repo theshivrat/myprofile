@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theshivrat</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .cont{
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .back{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            object-position: center;
+            z-index: -1;
+        }
+        .img{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 40%;
+        }
+        .d1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2{
+            margin-bottom: 0;
+            padding-bottom: 0;
+            color: white;
+        }
+        h4{
+            margin-top: 4px;
+            padding-top: 0;
+            color: rgb(185, 177, 177);
+        }
+        p{
+            font-size: small;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            color: white;
+            margin-left: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .img2{
+            width: 100%;
+        }
+        a{
+            padding: 0;
+            width: 100%;
+        }
+        .d21{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .d211{
+            width: 8%;
+        }
+        
+        @media screen and (max-width: 900px) {
+            .d1,.d2{
+                width: 95%;
+            }
+            .cont{
+                padding-top: 90px;
+            }
+            .d21{
+                margin-top: 25px;
+            }
+        }
+        @media screen and (min-width: 900px) {
+            .d1,.d2{
+                width: 30%;
+            }
+            .cont{
+                padding-top: 200px;
+            }
+            .d21{
+                margin-left: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="photo-1527049979667-990f1d0d8e7f.jpeg" alt="" class="back">
+    <div class="cont">
+        <div class="d1">
+        <img src="Picsart_22-06-08_10-51-02-246.jpg" alt="" class="img">
+        <h2>Mahesh Gurjar</h2>
+        <h4>@theshivrat</h4>
+        </div>
+        <div class="d2">
+            <p> B.Tech. Student</p>
+            <p> National Institute of Technology, Jamshedpur</p>
+            <p> Sikar, RAJASTHAN 332041</p>
+            <div class="d21">
+                <div class="d211"><a target="blank" href="http://www.instagram.com/theshivrat"><img src="insta.png" alt="" class="img2"></a></div>
+                <div class="d211"><a target="blank" href="http://www.linkedin.com/in/theshivrat"><img src="linkedin.png" alt="" class="img2"></a></div>
+                <div class="d211"><a target="blank" href="http://www.facebook.com/theshivrat"><img src="fb.png" alt="" class="img2"></a></div>
+                <div class="d211"><a target="blank" href="http://www.github.com/theshivrat"><img src="git.png" alt="" class="img2"></a></div>
+                <div class="d211"><a target="blank" href="http://www.twitter.com/theshivrat"><img src="twit.png" alt="" class="img2"></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
